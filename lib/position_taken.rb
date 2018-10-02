@@ -3,5 +3,5 @@
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 def move (array, index, character = "X")
-  array[index] = character
+  array[index_number] = character
 end
