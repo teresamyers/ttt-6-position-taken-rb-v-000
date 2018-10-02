@@ -5,8 +5,3 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 def move (array, index, character = "X")
   array[index_number] = character
 end
-
-def position_taken?
-  (board, index)
-  
-end
