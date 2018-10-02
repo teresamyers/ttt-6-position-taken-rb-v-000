@@ -2,9 +2,6 @@
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
-index = input_to_index(input)
-move(board, index, "X")
-
 def input_to_index(input)
   index = input.to_i - 1
 end
